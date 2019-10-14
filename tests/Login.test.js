@@ -11,7 +11,6 @@ fixture`Login in google`
 
 
 test('first test', async t => {
-    console.log(process.env.EMAIL_ADDRESS);
     await t.click(homePage.loginButton)
         .typeText(loginPage.emailTextBox, `${process.env.EMAIL_ADDRESS}`)
         .click(loginPage.nextButton)
