@@ -1,0 +1,23 @@
+{
+  "name": "testcafepoc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "testcafe chrome tests/Login.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ahgue/Automation-testcafePOC.git"
+  },
+  "author": "Edgar_Figueroa <edgar.figueroa@wizeline.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ahgue/Automation-testcafePOC/issues"
+  },
+  "homepage": "https://github.com/ahgue/Automation-testcafePOC#readme",
+  "dependencies": {
+    "dotenv": "^8.1.0",
+    "testcafe": "^1.5.0"
+  }
+}
